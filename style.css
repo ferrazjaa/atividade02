@@ -1,71 +1,151 @@
+
 body{
-    background-color: rgba(255, 224, 167, 0.849);
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
     margin: auto;
+    padding: 0;
+    font-family: Arial;
+    color: rgb(73, 14, 14);
 }
-h1 {
-    margin-block: revert;
-    font-size: xxx-large;
-    color: rgba(241, 253, 255, 0.76);
-}
-
-h5{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    
+h2{
+    font-size: 28px;
 }
 
-header{
+header {
+    background-position: center;
     text-align: center;
-    background-image: url(img/graosCafe.jpg);
-    
-    border-top: inset;
+    padding: 30px 0;
+}
+
+
+header h1 {
+    font-size: 48pt;
+    font-weight: bold;
     font-family: cursive;
- 
-    
+    margin-top: unset;
+    font-style: italic;
 }
 
-.header .menu{
-    color: white;
-
+#slogan {
+    font-style: italic;
+    font-size: 14pt;
+    margin-top: -40px;
+    font-family: cursive;
 }
 
-#slogan{
-    font-style:italic ; 
-    color: rgba(241, 253, 255, 0.76);
+.menu {
+    background-color: rgba(0, 0, 0, 0.5); /* Define uma cor de fundo semi-transparente para o menu */
+    padding: 10px 0;
 }
 
-.menu{
+.menu a {
+    color: white; /* Define a cor do texto dos links do menu como branco */
     text-decoration: none;
-    color: rgba(241, 253, 255, 0.76)
-  
+    padding: 5px 10px;
 }
 
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Define uma cor de fundo semi-transparente quando o link for hover */
+    border-radius: 5px;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu nav a:not(:last-child) {
+    margin-right: 20px; /* Define uma margem direita entre os links do menu */
+}
+
+.layout {
+    display: flex;
+}
+
+.tamanhoXicara,
+.tiposCafe {
+    flex: 1;
+}
+
+.tamanhoXicara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tamanho {
+    text-align: center;
+    margin: 10px;
+}
+
+.tamanho img {
+    max-width: 100px; /* Defina o tamanho máximo da imagem como desejar */
+}
+
+.tiposCafe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
 .conteiner {
     display: flex;
 }
-
 .produto {
     margin: 10px;
+    width: 250px;
     display: flex;
     flex-direction: column;
 }
-
-.produtoImagem {
-    text-align: center;
+.produtoImagem img {
+    max-width: 100%; /* Defina o tamanho máximo da imagem como desejar */
+    border-radius: 10%;
+    
 }
 
-.produtoImagem img {
-    max-width: 200px; /* Defina o tamanho máximo da imagem como desejar */
+.produtoImagem h3{
+    font-family: cursive;
 }
 
 .cafeTexto {
     text-align: center;
-    text-emphasis-style: inherit;
+    font-style: italic;
+    
 }
 
+
+
+.contatos{
+    text-align: center;
+}
+
+.contatos .lugar{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#referencia{
+    text-align: center;
+    font-size: 22px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: auto;
+    margin-top: 37.3px;
+}
 
 footer{
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
     
 }
+
+
+
+
+
+
 
