@@ -5,22 +5,23 @@ body{
     background-attachment: fixed; /*a imagem permanece fixa ao fundo*/
     margin: auto;
     padding: 0;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(73, 14, 14);
 }
-h2{
-    font-size: 28px;
+
+h4{
+    font-family: cursive;
+    font-size: 1.2rem;
 }
 
 header {
     background-position: center;
     text-align: center;
-    padding: 30px 0;
+    padding: 1.875rem 0;
 }
 
-
 header h1 {
-    font-size: 48pt;
+    font-size: 3rem;
     font-weight: bold;
     font-family: cursive;
     margin-top: unset;
@@ -29,25 +30,26 @@ header h1 {
 
 #slogan {
     font-style: italic;
-    font-size: 14pt;
-    margin-top: -40px;
+    font-size: 1.5rem;
+    margin-top: -2rem;
     font-family: cursive;
 }
 
 .menu {
     background-color: rgba(0, 0, 0, 0.5); /* Define uma cor de fundo semi-transparente para o menu */
-    padding: 10px 0;
+    padding: 0.625rem 0;
+    margin-top: 2rem;
 }
 
 .menu a {
-    color: white; /* Define a cor do texto dos links do menu como branco */
-    text-decoration: none;
-    padding: 5px 10px;
+    color: white; /* cor do texto dos links do menu branco */
+    text-decoration: none; /*sem o underline */
+    padding: 0.3125rem 0.625rem;
 }
 
 .menu a:hover {
     background-color: rgba(255, 255, 255, 0.5); /* Define uma cor de fundo semi-transparente quando o link for hover */
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 .menu nav {
@@ -56,7 +58,7 @@ header h1 {
 }
 
 .menu nav a:not(:last-child) {
-    margin-right: 20px; /* Define uma margem direita entre os links do menu */
+    margin-right: 1.25rem; /* Define uma margem direita entre os links do menu */
 }
 
 .layout {
@@ -72,10 +74,13 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -1.25rem;
+    margin-left: -1.25rem;
 }
 .tamanho {
     text-align: center;
-    margin: 10px;
+    margin: 0.625rem;
+    
 }
 
 .tamanho img {
@@ -88,13 +93,15 @@ header h1 {
     justify-content: space-around;
     align-items: flex-start;
     text-align: center;
+    margin-top: -1.25rem;
+    margin-left: -2.25rem;
 }
 .conteiner {
     display: flex;
 }
 .produto {
-    margin: 10px;
-    width: 250px;
+    margin: 0.625rem;
+    width: 15.625rem;
     display: flex;
     flex-direction: column;
 }
@@ -110,28 +117,32 @@ header h1 {
 
 .cafeTexto {
     text-align: center;
-    font-style: italic;
+    color: rgb(28 26 26 / 90%);
+    font-weight: bold;
     
 }
 
+.cafeTexto a{
+    text-decoration: none;
+}
 
 
 .contatos{
     text-align: center;
 }
-
-.contatos .lugar{
+.contatos a{
+    text-decoration: none;
+    color: rgb(28 26 26 / 90%);
     font-weight: bold;
-    font-size: 20px;
 }
+
+
 
 #referencia{
     text-align: center;
-    font-size: 22px;
-    text-align: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: auto;
-    margin-top: 37.3px;
+    margin-top: 2.33125rem;
 }
 
 footer{
