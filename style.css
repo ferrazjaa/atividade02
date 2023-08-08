@@ -28,6 +28,12 @@ header h1 {
     font-style: italic;
 }
 
+header img{
+    position: absolute;
+    top: -25px;
+    left: 25px;
+}
+
 #slogan {
     font-style: italic;
     font-size: 1.5rem;
@@ -36,7 +42,7 @@ header h1 {
 }
 
 .menu {
-    background-color: rgba(0, 0, 0, 0.5); /* Define uma cor de fundo semi-transparente para o menu */
+    background-color: rgba(0, 0, 0, 0.5); /*cor de fundo semi-transparente para o menu */
     padding: 0.625rem 0;
     margin-top: 2rem;
 }
@@ -48,7 +54,7 @@ header h1 {
 }
 
 .menu a:hover {
-    background-color: rgba(255, 255, 255, 0.5); /* Define uma cor de fundo semi-transparente quando o link for hover */
+    background-color: rgba(255, 255, 255, 0.5); /* cor de fundo semi-transparente quando o link for hover */
     border-radius: 5%;
 }
 
@@ -58,7 +64,7 @@ header h1 {
 }
 
 .menu nav a:not(:last-child) {
-    margin-right: 1.25rem; /* Define uma margem direita entre os links do menu */
+    margin-right: 1.25rem; /* margem direita entre os links do menu */
 }
 
 .layout {
@@ -144,6 +150,13 @@ header h1 {
     margin-bottom: auto;
     margin-top: 2.33125rem;
 }
+
+#logoimage{
+    position: absolute;
+    right: -10px;
+    
+}
+
 
 footer{
     text-align: center;
