@@ -11,7 +11,10 @@ Cardápio de uma cafeteria fícticia chamada Cafezinho.
    - Sobremesas
  - Em todas a seções há:
    - Imagens do produto;
-   - Valores
+   - Valores;
+   - Localização;
+   - Horário de Funcionamento;
+   - Referências
 
   ## Ferramentas utilizadas:
   - HTML
